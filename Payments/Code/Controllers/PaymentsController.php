@@ -13,12 +13,12 @@
  * @author sbc
  */
 
-namespace Evripay\Payments\Code\Controllers\Admin;
+namespace Evripay\Payments\Code\Controllers;
 
 defined('KAZIST') or exit('Not Kazist Framework');
 
-use Kazist\Controller\BaseController;
+use Payments\Payments\Code\Controllers\PaymentsController AS BasePaymentsController;
 
-class PaymentsController extends BaseController {
+class PaymentsController extends BasePaymentsController {
     
 }

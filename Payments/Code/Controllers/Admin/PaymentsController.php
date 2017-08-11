@@ -8,17 +8,17 @@
  */
 
 /**
- * Description of EvripayController
+ * Description of PaymentsController
  *
  * @author sbc
  */
 
-namespace Evripay\Payments\Evripay\Code\Controllers\Admin;
+namespace Evripay\Payments\Code\Controllers\Admin;
 
 defined('KAZIST') or exit('Not Kazist Framework');
 
-use Kazist\Controller\BaseController;
+use Payments\Payments\Code\Controllers\PaymentsController AS BasePaymentsController;
 
-class EvripayController extends BaseController {
+class PaymentsController extends BasePaymentsController {
     
 }
