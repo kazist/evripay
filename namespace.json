@@ -1,0 +1,6 @@
+{
+    "EvripayPayments": {
+        "namespace": "Evripay\\Payments",
+        "controller": "PaymentsController"
+    }
+}

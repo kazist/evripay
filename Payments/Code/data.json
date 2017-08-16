@@ -1,14 +1,14 @@
 
 [{
         "_table_name": "payments_gateways",
-        "tracking_id": "11",
+        "tracking_id": "18",
         "short_name": "evripay",
         "long_name": "Evripay",
         "input_label": "Evripay",
         "can_withdraw": "0",
         "can_payment": "1",
         "can_transfer": "0",
-        "payment_instruction": "To complete your Payment click the Evripay button below and make a payment of {{ payment.amount }} USD. <br> {{ payment_form }}",
+        "payment_instruction": "To complete your Payment click the Evripay button below and make a payment of <b>{{ gateway.total_amount }} USD</b>. <br> {{ payment_form }}",
         "transfer_instruction": "",
         "withdraw_instruction": "",
         "withdraw_file_prefix": "name,amount,email",
